@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ "$EUID" -ne 0 ]; then
-  echo -e "\n\e[91mERROR\e[39m: This script requires root\n"
+  echo -e "\n\e[91mERROR\e[39m: Root is required to install pfetch using this script.\n"
   exit
 fi
 
