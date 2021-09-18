@@ -7,7 +7,7 @@ This script is designed to make it easy to install `pfetch` onto your linux inst
 to install `pfetch` using this installer, download the script and run it from your terminal using the following command:
 
 ```bash
-sudo bash ./pfetch-installer.sh
+wget -qO - https://cutt.ly/AEoGNbu | sudo bash
 ```
 
 NOTE: You need root permissions to use this script, it will display an error if not run using `sudo`.
