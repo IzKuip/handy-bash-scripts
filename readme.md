@@ -13,8 +13,6 @@ to install `pfetch`, run the following command from the terminal:
 wget -qO - https://cutt.ly/AEoGNbu | sudo bash
 ```
 
-NOTE: You need root permissions to use this script, it will display an error if not run using `sudo`.
-
 ## `afetch` install script
 This script is designed to make it easy to install `afetch` onto your linux installation.
 
@@ -26,5 +24,5 @@ to install `afetch`, run the following command from the terminal:
 ```bash
 wget -qO - https://cutt.ly/fEoKu8Q | sudo bash
 ```
-
-NOTE: You need root permissions to use this script, it will display an error if not run using `sudo`.
+---
+NOTE: You need root permissions to use these scripts script, it will display an error if not run using `sudo`.
