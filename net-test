@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 output="$(ping google.com -c 1)"
 
