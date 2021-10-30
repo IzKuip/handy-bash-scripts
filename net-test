@@ -1,0 +1,13 @@
+#!bin/bash
+
+output="$(ping google.com -c 1)"
+
+clear
+
+echo -e "\e[36mTechWorldInc Internet Connectivity Tester\n"
+
+if echo "$output" | grep -q '1 received, '; then
+    echo -e "\e[92mSuccess\e[39m: You are connected to the internet"
+else
+    echo -e "\e[91mFailure\e[39m: You are NOT connected to the internet"
+fi

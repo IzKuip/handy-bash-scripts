@@ -1,28 +1,38 @@
-# *fetch install scripts
-This is a repository containing bash install scripts for multiple system information fetchers, primarily `pfetch` and `afetch`
+# handy-bash-scripts
+This is a repository containing some handy dandy bash (`.sh`) scripts you can use in your daily Linux life.
 
-## `pfetch` install script
-This script is designed to make it easy to install `pfetch` onto your linux installation.
+From installers to utilities, it might very well be in here.
 
-> DISCLAIMER: I am not the original creator of `pfetch`, and I am not associated with the creator of `pfetch`, you can find the `pfetch` github repository here: [dylanaraps/pfetch](https://www.github.com/dylanaraps/pfetch).
+## what's actually in here?
+Here are some of the scripts I've uploaded to this repository:
 
-### Usage
-to install `pfetch`, run the following command from the terminal:
-
-```bash
-wget -qO - https://cutt.ly/AEoGNbu | sudo bash
-```
-
-## `afetch` install script
-This script is designed to make it easy to install `afetch` onto your linux installation.
-
-> DISCLAIMER: I am not the original creator of `afetch`, and I am not associated with the creator of `afetch`, you can find the `afetch` github repository here: [vyxxr/afetch](https://www.github.com/vyxxr/afetch).
-
-### Usage
-to install `afetch`, run the following command from the terminal:
-
-```bash
-wget -qO - https://cutt.ly/fEoKu8Q | sudo bash
-```
+### Installers
 ---
-NOTE: You need root permissions to use these scripts script, it will display an error if not run using `sudo`.
+#### **Afetch Installer (`afetch-installer.sh`)**
+A one-command installer for `afetch` ([vyxxr/afetch](https://github.com/vyxxr/afetch)) that downloads and installs `afetch` for you.
+
+> 🚀 You can run this script directly from your terminal with this command:
+> 
+> ```bash
+> wget -qO - https://cutt.ly/fEoKu8Q | sudo bash
+> ```
+
+#### **Pfetch Installer (`pfetch-installer.sh`)**
+A one-command installer for `pfetch` ([dylanaraps/pfetch](https://github.com/dylanaraps/pfetch)) that downloads and installs `pfetch` for you.
+
+> 🚀 You can run this script directly from your terminal with this command:
+> 
+> ```bash
+> wget -qO - https://cutt.ly/AEoGNbu | sudo bash
+> ```
+
+### Utilities
+---
+#### **TechWorldInc Internet Connectivity Tester (`net-test`)**
+A simple program that tells you if you have internet or not, using `ping`.
+
+> 🚀 Run this command to install this utility:
+> 
+> ```bash
+> wget -qO - https://cutt.ly/eRX3q0B | sudo bash
+> ```
